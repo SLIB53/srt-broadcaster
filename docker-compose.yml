@@ -1,0 +1,16 @@
+services:
+  ingest:
+    build: ./app/ingest
+    ports:
+      - "347:347/udp"
+      - "347:347/tcp"
+    volumes:
+      - stream:/tmp
+  viewer:
+    build: ./app/viewer
+    ports:
+      - "80:80"
+    volumes:
+      - stream:/usr/share/nginx/html/stream:ro
+volumes:
+  stream: {}
