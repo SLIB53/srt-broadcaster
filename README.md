@@ -20,7 +20,7 @@ srt://localhost:347?mode=caller&transtype=live&smoother=live&pkt_size=1456
 
 _(Note: if you are using OBS, set the service to "Custom..." and use the above URL as the "Server". The "Stream Key" is unused.)_
 
-The live video will then be accessible using the viewer at `http://localhost`.
+The live video will then be accessible using the viewer at [http://localhost](http://localhost).
 
 ## References
 
@@ -29,3 +29,4 @@ The live video will then be accessible using the viewer at `http://localhost`.
 * https://trac.ffmpeg.org/wiki/Encode/H.264
 * https://ffmpeg.org/ffmpeg-protocols.html#toc-srt
 * https://ffmpeg.org/ffmpeg-protocols.html#hls
+* https://github.com/video-dev/hls.js
