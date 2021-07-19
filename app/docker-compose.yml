@@ -1,13 +1,13 @@
 services:
   ingest:
-    build: ./app/ingest
+    build: ./services/ingest
     ports:
       - "347:347/udp"
       - "347:347/tcp"
     volumes:
       - stream:/tmp
   viewer:
-    build: ./app/viewer
+    build: ./services/viewer
     ports:
       - "80:80"
     volumes:
