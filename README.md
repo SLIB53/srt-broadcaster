@@ -26,7 +26,6 @@ The live video will then be accessible using the viewer at [http://localhost](ht
 
 * https://obsproject.com/wiki/Streaming-With-SRT-Protocol
 * https://srtlab.github.io/srt-cookbook/faq.html
-* https://trac.ffmpeg.org/wiki/Encode/H.264
 * https://ffmpeg.org/ffmpeg-protocols.html#toc-srt
 * https://ffmpeg.org/ffmpeg-protocols.html#hls
 * https://github.com/video-dev/hls.js

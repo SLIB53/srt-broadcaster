@@ -4,12 +4,14 @@ services:
     ports:
       - "347:347/udp"
       - "347:347/tcp"
+    restart: always
     volumes:
-      - stream:/tmp
+      - stream:/tmp/stream
   viewer:
     build: ./services/viewer
     ports:
       - "80:80"
+    restart: always
     volumes:
       - stream:/usr/share/nginx/html/stream:ro
 volumes:
