@@ -15,7 +15,7 @@ docker compose up
 Broadcast to the ingest server using the following URL:
 
 ```
-srt://localhost:347?mode=caller&transtype=live&smoother=live&pkt_size=1456
+srt://localhost:3478?mode=caller&transtype=live&smoother=live
 ```
 
 _(Note: if you are using OBS, set the service to "Custom..." and use the above URL as the "Server". The "Stream Key" is unused.)_

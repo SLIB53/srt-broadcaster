@@ -2,8 +2,8 @@ services:
   ingest:
     build: ./services/ingest
     ports:
-      - "347:347/udp"
-      - "347:347/tcp"
+      - "3478:3478/udp"
+      - "3478:3478/tcp"
     restart: always
     volumes:
       - stream:/tmp/stream
