@@ -1,14 +1,13 @@
 # SRT Broadcaster
 
-This is a simple Docker setup for broadcasting a video stream using SRT and HLS.
+This is a simple Docker setup for broadcasting a video stream using SRT and HLS (fmp4).
 
 
 ## Usage
 
-Running `docker compose up` from the `app` directory of this repo will start an "ingest" server and "viewer" server.
+If you are on Windows or macOS with Docker Desktop, running `docker compose up` from the `app` directory of this repo will start an "ingest" server and "viewer" server.
 
 ```sh
-cd app
 docker compose up
 ```
 
