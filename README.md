@@ -2,7 +2,7 @@
 
 This is a simple Docker setup for broadcasting a video stream using SRT and HLS.
 
-The SRT server is set up as a an H.264 proxy. To stream to this server, make sure to use H.264 encoding.
+The SRT server is set up as an H.264 proxy. To stream to this server, make sure to use H.264 encoding.
 
 
 ## Usage
